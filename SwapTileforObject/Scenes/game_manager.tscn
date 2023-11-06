@@ -1,0 +1,14 @@
+[gd_scene load_steps=4 format=3 uid="uid://bptyt0jst7jv5"]
+
+[ext_resource type="PackedScene" uid="uid://clqktb6x3l0dv" path="res://Scenes/background.tscn" id="1_l4xrq"]
+[ext_resource type="PackedScene" uid="uid://dlbg6tj6r2qwd" path="res://Scenes/tile_map.tscn" id="1_vn6kg"]
+[ext_resource type="PackedScene" uid="uid://boyg50i3iy4cx" path="res://Scenes/Objects/player.tscn" id="3_yvyrc"]
+
+[node name="GameManager" type="Node2D"]
+
+[node name="Background" parent="." instance=ExtResource("1_l4xrq")]
+
+[node name="TileMap" parent="." instance=ExtResource("1_vn6kg")]
+
+[node name="Player" parent="." instance=ExtResource("3_yvyrc")]
+position = Vector2(32, 210)
