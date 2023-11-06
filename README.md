@@ -1,0 +1,2 @@
+# GodotTips
+TipForGodot
