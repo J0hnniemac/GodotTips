@@ -1,0 +1,23 @@
+[gd_scene load_steps=2 format=3 uid="uid://0g48d2h7ff8s"]
+
+[ext_resource type="Texture2D" uid="uid://d202yq15ws7q2" path="res://Art/Sprites/tile_0067.png" id="1_r1ade"]
+
+[node name="HUD" type="CanvasLayer"]
+
+[node name="Label" type="Label" parent="."]
+offset_left = 37.0
+offset_right = 77.0
+offset_bottom = 26.0
+theme_override_colors/font_color = Color(0.290196, 0.627451, 0.717647, 1)
+text = "x "
+
+[node name="ItemCount" type="Label" parent="."]
+offset_left = 54.0
+offset_right = 94.0
+offset_bottom = 26.0
+theme_override_colors/font_color = Color(0.290196, 0.627451, 0.717647, 1)
+text = "0 "
+
+[node name="ItemTarget" type="Sprite2D" parent="."]
+position = Vector2(17, 11)
+texture = ExtResource("1_r1ade")

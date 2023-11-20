@@ -1,0 +1,11 @@
+[gd_scene load_steps=2 format=3 uid="uid://clqktb6x3l0dv"]
+
+[ext_resource type="Texture2D" uid="uid://q8uyfffcxict" path="res://Art/SpriteSheets/tilemap-backgrounds_packed.png" id="1_f0x7f"]
+
+[node name="Background" type="CanvasLayer"]
+layer = -8
+
+[node name="Tilemap-backgroundsPacked" type="Sprite2D" parent="."]
+position = Vector2(678, 177)
+scale = Vector2(8, 8)
+texture = ExtResource("1_f0x7f")
