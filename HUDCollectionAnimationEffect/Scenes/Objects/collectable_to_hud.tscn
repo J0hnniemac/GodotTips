@@ -1,0 +1,8 @@
+[gd_scene load_steps=3 format=3 uid="uid://bynf4hcxx2vl8"]
+
+[ext_resource type="Texture2D" uid="uid://d202yq15ws7q2" path="res://Art/Sprites/tile_0067.png" id="1_4vnvg"]
+[ext_resource type="Script" path="res://Scripts/collectable_to_hud.gd" id="2_82vp7"]
+
+[node name="CollectableToHud" type="Sprite2D"]
+texture = ExtResource("1_4vnvg")
+script = ExtResource("2_82vp7")
